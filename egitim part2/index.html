@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="stil.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!-- başlık ve arama kısımı -->
+<div class="container my-5 mx-auto">
+    <h1 class="text-muted text-center my-4">HAVA DURUMU</h1>
+<form class="konum-degistir my-4 text-center text muted">
+<label for="sehir">Hava durumu için konum giriniz</label>
+<input type="text" name="sehir" class="form-control p-4">
+</form>
+<!-- card kısımı -->
+<div class="card shadow-lg rounded d-none">
+<img class="zaman card-img-top" src="https://via.placeholder.com/400x300" alt="">
+<div class="icon bg-light mx-auto text-center">
+   <img src="" alt="" class="imgpng">
+</div>
+<div class="text-muted text-uppercase text-center detay">
+<h5 class="my-3 text-center sehir">ŞEHİR İSİMİ</h5>
+<div class="my-3 text-center">HAVA DURUMU</div>
+<div class="display-4 my-4 text-center">
+<span>Sıcaklık</span>
+<span>&deg;C</span>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+<script src="/weather.js"></script> 
+    <script src="/script.js"></script>
+</body>
+</html>
